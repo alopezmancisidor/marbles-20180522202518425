@@ -50,6 +50,7 @@ type Owner struct {
 	ObjectType string `json:"docType"`     //field for couchdb
 	Id         string `json:"id"`
 	Username   string `json:"username"`
+	Lastname   string `json:"lastname"`
 	Company    string `json:"company"`
 	Enabled    bool   `json:"enabled"`     //disabled owners will not be visible to the application
 }
